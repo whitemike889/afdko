@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ttFont sfntVersion="OTTO" ttLibVersion="3.28">
+<ttFont sfntVersion="OTTO" ttLibVersion="3.37">
 
   <GlyphOrder>
     <!-- The 'id' attribute is only for humans; it is ignored when parsed. -->
@@ -14,12 +14,12 @@
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0x306d9d41"/>
+    <checkSumAdjustment value="0x8b152428"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
-    <created value="Sat Jun 30 16:42:31 2018"/>
-    <modified value="Sat Jun 30 16:42:31 2018"/>
+    <created value="Tue Jan 29 14:50:59 2019"/>
+    <modified value="Tue Jan 29 14:50:59 2019"/>
     <xMin value="37"/>
     <yMin value="-120"/>
     <xMax value="971"/>
@@ -123,7 +123,7 @@
       SourceSans
     </namerecord>
     <namerecord nameID="5" platformID="1" platEncID="0" langID="0x0" unicode="True">
-      Version 1.000;hotconv 1.0.108;makeotfexe 2.5.65593
+      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
     </namerecord>
     <namerecord nameID="6" platformID="1" platEncID="0" langID="0x0" unicode="True">
       SourceSans-Test
@@ -144,7 +144,7 @@
       SourceSans
     </namerecord>
     <namerecord nameID="5" platformID="3" platEncID="1" langID="0x409">
-      Version 1.000;hotconv 1.0.108;makeotfexe 2.5.65593
+      Version 1.000;hotconv 1.0.109;makeotfexe 2.5.65596
     </namerecord>
     <namerecord nameID="6" platformID="3" platEncID="1" langID="0x409">
       SourceSans-Test
@@ -191,9 +191,9 @@
       <map code="0x4e9c" name="cid01125"/><!-- CJK UNIFIED IDEOGRAPH-4E9C -->
       <map code="0x9bf5" name="cid01143"/><!-- CJK UNIFIED IDEOGRAPH-9BF5 -->
     </cmap_format_4>
-    <cmap_format_14 platformID="0" platEncID="5" format="14" length="33" numVarSelectorRecords="1">
-      <map uvs="0xe0100" uv="0x4e9c" name="None"/>
-      <map uvs="0xe0100" uv="0x9bf5" name="None"/>
+    <cmap_format_14 platformID="0" platEncID="5">
+      <map uv="0x4e9c" uvs="0xe0100"/>
+      <map uv="0x9bf5" uvs="0xe0100"/>
     </cmap_format_14>
     <cmap_format_2 platformID="1" platEncID="1" language="0">
       <map code="0x0" name="cid00001"/>
